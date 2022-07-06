@@ -48,22 +48,43 @@ p {
 }
 
 .for-sylhet {
+
+    height: 400px;
     position: relative;
+
+}
+
+
+
+input {
+    font-family: 'Ubuntu', sans-serif;
+    height: 50px;
+    width: 450px;
+    outline: none;
+    border: none;
 }
 
 .taka {
+
+    text-align: center;
+    font-size: 25px;
+    bottom: 10px;
     position: absolute;
-    top: 285px;
+    left: 300px;
+
+
+
 }
 
 .money {
 
+    border-bottom: 1px solid grey;
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 263px;
     width: 80%;
     margin-left: 100px;
-    border-bottom: 1px solid grey;
+
 }
 
 .box {
