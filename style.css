@@ -46,3 +46,58 @@ p {
     color: rgb(61, 59, 59);
     text-align: center;
 }
+
+.for-sylhet {
+    position: relative;
+}
+
+.taka {
+    position: absolute;
+    top: 285px;
+}
+
+.money {
+
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 80%;
+    margin-left: 100px;
+    border-bottom: 1px solid grey;
+}
+
+.box {
+
+    background-color: rgb(241, 250, 241);
+    padding: 30px 15px 0px 20px;
+    border-radius: 5px;
+    height: 70px;
+    margin: 40px 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#box2 {
+    background: linear-gradient(rgb(233, 203, 198), rgb(244, 213, 209));
+    border: 1px solid tomato;
+    color: tomato;
+}
+
+#button2 {
+    top: -30px;
+    position: absolute;
+
+}
+
+.other-plan {
+    position: relative;
+    height: 500px;
+
+}
+
+.plan-title {
+    padding-top: 60px;
+    font-size: 35px;
+    text-align: center;
+
+}
