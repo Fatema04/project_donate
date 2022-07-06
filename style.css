@@ -1,0 +1,48 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/header.jpg);
+
+    height: 500px;
+}
+
+h1 {
+    font-size: 37px;
+    color: white;
+    text-align: center;
+    padding-top: 140px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.header-text {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(244, 87, 59);
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 450px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+
+    font-size: 20px;
+    color: rgb(61, 59, 59);
+    text-align: center;
+}
