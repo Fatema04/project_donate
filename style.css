@@ -166,17 +166,65 @@ img {
     margin-top: 150px;
     height: 400px;
     display: flex;
-    background-color: chartreuse;
+    background-color: rgb(245, 255, 245);
+    box-shadow: 1px 1px 7px grey;
+
 }
 
 .donate-process {
+    border-radius: 10px;
     margin: 40px 0px 40px 70px;
     width: 40%;
-    background-color: blue;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(images/donation.png);
+    height: 245px;
+    position: relative;
+    box-shadow: 1px 2px 2px 4px grey;
+
+}
+
+.donate-text {
+
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+
+}
+
+.button3 {
+
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 5px;
+
 }
 
 .faq-part {
-    margin: 40px 0px 40px 80px;
+    margin: 0px 0px 0px 80px;
     width: 40%;
-    background-color: rgb(22, 159, 167);
+    border-left: dotted 1px grey;
+
+}
+
+.faq-part ul li {
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px grey;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    border: none;
+}
+
+.faq-part ul a {
+    text-decoration: none;
+    font-size: 17px;
+
 }
