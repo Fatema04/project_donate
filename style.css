@@ -10,6 +10,7 @@ body {
 
 h1 {
     font-size: 37px;
+    line-height: 45px;
     color: white;
     text-align: center;
     padding-top: 140px;
@@ -48,7 +49,7 @@ p {
 }
 
 .for-sylhet {
-
+    color: rgb(61, 59, 59);
     height: 400px;
     position: relative;
 
@@ -64,7 +65,7 @@ input {
     border: none;
 }
 
-.taka {
+.other-amount {
 
     text-align: center;
     font-size: 25px;
@@ -89,7 +90,7 @@ input {
 
 .box {
 
-    background-color: rgb(241, 250, 241);
+    background-color: rgb(245, 252, 245);
     padding: 30px 15px 0px 20px;
     border-radius: 5px;
     height: 70px;
@@ -98,9 +99,9 @@ input {
     font-weight: 600;
 }
 
-#box2 {
-    background: linear-gradient(rgb(233, 203, 198), rgb(244, 213, 209));
-    border: 1px solid tomato;
+#box3 {
+    background-color: rgb(255, 226, 220);
+    border: 2px solid tomato;
     color: tomato;
 }
 
@@ -117,7 +118,8 @@ input {
 }
 
 .plan-title {
-    padding-top: 60px;
+    color: rgb(61, 59, 59);
+    padding-top: 70px;
     font-size: 35px;
     text-align: center;
 
@@ -127,7 +129,7 @@ input {
     margin-bottom: 550px;
     height: 400px;
     display: flex;
-    /* background-color: brown;*/
+
 }
 
 .plan {
@@ -139,7 +141,13 @@ input {
 }
 
 img {
-    padding: 50px 0px 0px 20px;
+    padding: 20px 0px 0px 20px;
+}
+
+h4 {
+    color: rgb(61, 59, 59);
+    font-size: 20px;
+
 }
 
 .plan p {
@@ -162,9 +170,22 @@ img {
     background-color: rgb(221, 240, 248);
 }
 
+.donation-title {
+    background-color: rgb(244, 244, 250);
+    color: rgb(61, 59, 59);
+    height: 100px;
+    margin: 100px 0px 0px 200px;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
 .about-donate {
-    margin-top: 150px;
-    height: 400px;
+    margin: 40px 0px 0px 50px;
+    width: 90%;
+    height: 450px;
     display: flex;
     background-color: rgb(245, 255, 245);
     box-shadow: 1px 1px 7px grey;
@@ -179,6 +200,7 @@ img {
     height: 245px;
     position: relative;
     box-shadow: 1px 2px 2px 4px grey;
+
 
 }
 
@@ -211,31 +233,37 @@ img {
     width: 40%;
     border-left: dotted 1px grey;
 
+
 }
 
 .faq-part ul li {
     background-color: white;
     box-shadow: 1px 2px 2px 2px grey;
     width: 90%;
-    height: 30px;
+    height: 45px;
     margin-bottom: 9px;
     border-radius: 5px;
     border: none;
 }
 
 .faq-part ul a {
+
+    padding-left: 3px;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(31, 31, 31);
     font-size: 17px;
 
 }
 
 .update-area {
-
+    color: rgb(61, 59, 59);
     height: 300px;
 
 }
 
 .mail-box {
+    position: relative;
     margin-left: 300px;
     height: 150px;
     width: 50%;
@@ -258,17 +286,41 @@ button {
     color: white;
     background-color: tomato;
     position: absolute;
+    bottom: 55px;
     border: none;
     font-size: 20px;
 
-    left: 600px;
+    left: 290px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
 }
 
 footer {
-    background-color: black;
-    height: 90px;
+    padding: 25px 0px;
+    background-color: rgb(65, 63, 63);
+    height: 140px;
     color: white;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer ul li {
+    display: inline;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#contact {
+    color: tomato;
+}
+
+span {
+    color: tomato;
 }
